@@ -23,4 +23,7 @@ void makeDecisionWhereToTurnDuringStop(){
     turn_left();
     
   }
+  else {
+    end_turn = true;
+  }
 }

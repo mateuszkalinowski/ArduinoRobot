@@ -54,9 +54,9 @@ void setup() {
   attachInterrupt(digitalPinToInterrupt(2),on_rotate_right,FALLING);
   attachInterrupt(digitalPinToInterrupt(3),on_rotate_left,FALLING);
   ride(speed,true,0);
-  lcd.begin(16,2);   // Inicjalizacja LCD 2x16
+  lcd.begin(16,2); 
   // tone(10, 300, 1000); 
-  //lcd.noBacklight(); // zalaczenie podwietlenia 
+  //lcd.noBacklight();
 }
 
 void loop() {
